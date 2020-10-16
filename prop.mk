@@ -18,4 +18,10 @@ persist.camera.eis.enable=1
 #Date Fixes
 PRODUCT_PROPERTY_OVERRIDES += \
 persist.vendor.delta_time.enable=true \
-persist.delta_time.enable=true \
+persist.delta_time.enable=true
+
+# Default sounds
+PRODUCT_PROPERTY_OVERRIDES += \
+    ro.config.ringtone=Ganymede.ogg \
+    ro.config.notification_sound=Carme.ogg \
+    ro.config.alarm_alert=Argon.ogg
