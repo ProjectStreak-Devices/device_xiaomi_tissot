@@ -1,0 +1,25 @@
+[
+  {
+    "repository": "CatzBurry/android_device_xiaomi_msm8953-common",
+    "target_path": "device/xiaomi/msm8953-common",
+    "branch": "streak-11",
+    "remote": "github"
+  },
+  {
+    "repository": "vendor_xiaomi_tissot",
+    "target_path": "vendor/xiaomi",
+    "branch": "eleven",
+    "remote": "device"
+  },
+  {
+    "repository": "MASTERGUY/kernel_xiaomi_msm8953",
+    "target_path": "kernel/xiaomi/tissot",
+    "branch": "eleven",
+    "remote": "github"
+  },
+  { "repository": "kdrag0n/proton-clang", 
+    "target_path": "prebuilts/clang/host/linux-x86/clang-11", 
+    "branch": "master", 
+    "remote": "github"
+  } 
+]

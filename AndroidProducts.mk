@@ -14,4 +14,9 @@
 # limitations under the License.
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_tissot.mk
+    $(LOCAL_DIR)/streak_tissot.mk
+
+COMMON_LUNCH_CHOICES := \
+    streak_tissot-user \
+    streak_tissot-userdebug \
+    streak_tissot-eng \
